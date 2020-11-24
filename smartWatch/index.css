@@ -1,0 +1,144 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+}
+
+#topbar{
+    width: 100%;
+    height: 20px;
+    padding-top: 15px;
+    padding-bottom: 28px;
+    background-color: #242f3f;
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    color: white;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#left-sec{
+    width: 42%;
+    position: relative;
+}
+
+#left-sec img{
+    width: 100%;
+}
+
+#timer{
+    color: white;
+    z-index: 10;
+    position: absolute;
+    top: 42%;
+    left: 37%;
+    font-weight: 600;
+    font-size: 26px;
+
+}
+
+#heartbit{
+    position: absolute;
+    top: 42%;
+    left: 44%;
+    display: none;
+}
+
+#heartbit i{
+    color:red;
+    font-size: 62px;
+    animation: zoomin .6s ease-in infinite;
+}
+
+@keyframes zoomin {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+    75%{transform: scale(1.13);}
+    100%{transform: scale(1);}
+}
+
+#heartRating{
+    color: white;
+    margin-top: 25%;
+    font-size: 36px;
+}
+
+
+#right-sec{
+    padding-top:30px;
+    width: 42%;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#p{
+    font-size: 14px;
+    letter-spacing: .4px;
+    line-height: 1.4;
+    color: rgb(134, 130, 130);
+}
+
+h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.colors{
+    cursor: pointer;
+    padding: 18px 25px;
+    border-radius: 5px;
+    border: black;
+    outline: none;
+    margin: 0 5px;
+}
+
+#time{
+    cursor: pointer;
+    padding: 10px 18px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border: black;
+    background-color:  #d1ced1;
+}
+
+#heartrate{
+    cursor: pointer;
+    padding: 10px 16px;
+    border: black;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    letter-spacing: .3px;
+    background-color: #d1ced1;
+    margin-left: 10px;
+}
+
+#buybtn{
+    margin-top: 8%;
+}
+
+#buy{
+    cursor: pointer;
+    font-weight: 700;
+    padding: 18px 30px;
+    border: black;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    background-color: #e69736;
+}
+
